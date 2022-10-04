@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+  <h1><span>regi</span>stro</h1>
+  <input type="number" id="telefone"placeholder="telefone">
+  
+  <input type="text" name="nome" placeholder="nome">
+  
+  
+  <input type="password"id="password" placeholder="palavra-passe">
+  
+    <button onclick="proximo()">próximo passo</button>
+  
+  <hr>
+  
+  <p onclick="index()" class="account" herf="/index.html">entrar</p>
+  </div>
+   <h2>رة<span id="fitrah">فط#</span><h2>
+  
+  
+  <script>
+  
+  var input=document.getElementsByTagName('input')
+    var input2= (input.value)
+    
+  
+  
+  
+    function proximo(){
+      window.location.replace("/Próximoregi.html")
+    }
+    function index(){
+      window.location.replace("/index.html")
+      
+      if(input2==null){
+      alert('ola mundo')
+    }
+    
+      
+      
+      
+      
+    }
+    
+    
+  </script>
+  
+</body>
+</html>
